@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="33.053">
+    <testcase classname="Online Shopping" name="Login to the application and Order a T-Shirt" time="18.1">
+        <system-out><![CDATA[Given Launch My Store App...................................................passed
+And Click on SignIn Button..................................................passed
+Then Enter Username and Password and Sign In to the app.....................passed
+And Order T-Shirt...........................................................passed
+And Verify the Order History................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Online Shopping" name="Update the Personal Information" time="14.709">
+        <system-out><![CDATA[Given Launch My Store App...................................................passed
+And Click on SignIn Button..................................................passed
+Then Enter Username and Password and Sign In to the app.....................passed
+Then Click on Customer Account Information..................................passed
+And Edit First Name and Save................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
