@@ -110,7 +110,7 @@ public void editFirstName() {
 	
 	By passEle = By.xpath("//input[@id='old_passwd']");
 	waitForElement(ele);
-	currentDriver.findElement(passEle).sendKeys("Pass@1234");
+	currentDriver.findElement(passEle).sendKeys("XX12345");
 	
 	By saveBtn = By.xpath("//button[@name='submitIdentity']");
 	waitForElement(ele);
